@@ -1,0 +1,30 @@
+# Build outputs
+/build/
+/trad
+/back
+/*.tab.c
+/*.tab.h
+
+# Local test and compiler artifacts
+*.o
+*.out
+*.log
+*.lisp
+*.forth
+*.tmp
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
